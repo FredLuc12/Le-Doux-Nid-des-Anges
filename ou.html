@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Portfolio ABLEFONLIN Fred</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+
+    <body>
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><img src="images/logo.JPG"><br>ASSOC. LE DOUX NID DES ANGES</label>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="atl.html">Les ateliers</a></li>
+                    <li><a href="ou.html">Ou,Quand ?</a></li>
+                    <li><a href="com.html">Comment ?</a></li>
+                    <li><a href="agen.html">Agenda et Contact</a></li>
+                </ul>
+        </nav>
+
+        <section class="mil" id="mil">
+
+            <div class="first">
+                <h1>La famille</h1><br>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Duis vitae dolor tortor. Quisque 
+                eu tempus justo, vel lacinia est. Morbi consectetur
+                augue in ullamcorper ultricies. Nam maximus lacus 
+                et blandit lacinia. Vivamus feugiat augue dui, 
+                eget euismod lorem tristique id. Pellentesque 
+                velit nisi, dignissim nec elit sit amet, fringilla
+                egestas risus. Morbi a sem auctor, congue ipsum 
+                vitae, pellentesque dui. Nam dictum sem luctus 
+                erat luctus fermentum. Integer dapibus quis massa
+                eu venenatis. Maecenas egestas nisl venenatis
+                massa fringilla porttitor. Duis pulvinar 
+                suscipit interdum. Vestibulum condimentum eget
+                 nibh non condimentum.</p><br>
+                <img src="images/logo.JPG">
+            </div>
+
+            <div class="second">
+                <h1>Contre la manultrition infantile</h1><br>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Duis vitae dolor tortor. Quisque 
+                eu tempus justo, vel lacinia est. Morbi consectetur
+                augue in ullamcorper ultricies. Nam maximus lacus 
+                et blandit lacinia. Vivamus feugiat augue dui, 
+                eget euismod lorem tristique id. Pellentesque 
+                velit nisi, dignissim nec elit sit amet, fringilla
+                egestas risus. Morbi a sem auctor, congue ipsum 
+                vitae, pellentesque dui. Nam dictum sem luctus 
+                erat luctus fermentum. Integer dapibus quis massa
+                eu venenatis. Maecenas egestas nisl venenatis
+                massa fringilla porttitor. Duis pulvinar 
+                suscipit interdum. Vestibulum condimentum eget
+                 nibh non condimentum.</p><br>
+                <img src="images/logo.JPG"><br>
+            </div><br>
+
+        </section><br><br><br><br><br><br><br><br><br><br><br>
+
+        <header>
+        </header>
+
+    </body>
+
+    <footer>
+	    <p>Copyright © 2023 ABLEFONLIN Fred</p>
+	</footer>
+
+    <script>
+        const menuHamb = document.querySelector(".menu-hamb")
+        const navLinks = document.querySelector(".nav-links")
+
+        menuHamb.addEventListener("click",()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>

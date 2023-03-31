@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Portfolio ABLEFONLIN Fred</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+
+    <body>
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><img src="images/logo.JPG"><br>ASSOC. LE DOUX NID DES ANGES</label>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="atl.html">Les ateliers</a></li>
+                    <li><a href="ou.html">Ou,Quand ?</a></li>
+                    <li><a href="com.html">Comment ?</a></li>
+                    <li><a href="agen.html">Agenda et Contact</a></li>
+                </ul>
+        </nav><br><br><br><br>
+
+        <h1></h1>
+        <section class="container">
+            <div class="card">
+                <div class="card-top">
+                    <img src="images/logo.JPG" alt="">
+                </div>
+                <div class="card-infos">
+                    <h2 class="name">ASS Le Doux Nid des Anges Huma</h2>
+                    <h3 class="job">Terache Vickos Kouda (Présidente)</h3>
+                    <p class="info">Contact-nous au:+33 06._._._._</p>
+                </div>
+                <div class="button">
+                    <a href="paypal.html"><button>Souhaitez-vous adhérer ?</button></a>
+                    <a href="paypal.html"><button> Faire un don ?</button></a>
+                </div>
+            </div>
+        </section>
+
+        <header>
+        </header>
+
+    </body>
+
+    <footer>
+	    <p>Copyright © 2023 ABLEFONLIN Fred</p>
+	</footer>
+
+    <script>
+        const menuHamb = document.querySelector(".menu-hamb")
+        const navLinks = document.querySelector(".nav-links")
+
+        menuHamb.addEventListener("click",()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>
